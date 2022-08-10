@@ -1,0 +1,44 @@
+body{
+   
+   background-color: #050b20;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh; 
+}
+
+form{
+
+    position: relative;
+    width: 300px;
+}
+
+label{
+
+position: absolute;
+left:0;
+color: white;
+
+
+margin-top: -3rem;
+transition: all 0.3s ease-in-out;
+font-size: 14px;
+}
+
+input{
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom:2px solid white;
+    color: white;
+    font-size: 18px;
+}
+
+input:placeholder-shown+label{
+
+    margin-top: 0;
+    cursor: text;
+    font-size: 108%;
+
+}
